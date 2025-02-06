@@ -1,0 +1,49 @@
+/*
+Theme Name:     outdoorInnovations
+Description:    
+Author:         madisonstudios
+Template:       enfold
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+
+@media (min-width: 989px) and (max-width: 1300px){
+	#header .container {
+		padding: 0px;
+	}
+	
+	#top.page .logo,
+	#top.blog .logo {
+		width: 25%;
+	}
+	
+	#top.page .logo a 
+	#top.blog .logo a {
+		width: 100%;
+		max-width: initial;
+	}
+	
+	#top.page .logo img,
+	#top.blog .logo img {
+		width: 100%;
+	}
+	
+	#top.page #wrap_all #header .av-main-nav li a, 
+	#top.blog #wrap_all #header .av-main-nav li a {
+		font-size: 12px !important;
+	}
+}
+
+@media (max-width: 988px) {
+	#top.page #header,
+	#top.blog #header {
+		background: none;
+	}
+	
+	#top.page-id-7 .main_menu {
+		text-shadow: initial;
+	}
+	
+	
+}
